@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(105, 184, 184);
+}
+
+.chatbox {
+  height: 66vh;
+  width: 80vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(238, 231, 232);
+  overflow-y: auto;
+}
+
+.text-input {
+  width: 300px;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+.submit-button {
+  border-radius: 4px;
+}
+
+/* .user {
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 20vw;
+} */
+
+.message-content {
+  border: 1px solid rgb(59, 59, 156);
+  width: 20vw;
+  border-left: none;
+  border-right: none;
+}
